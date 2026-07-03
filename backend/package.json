@@ -8,7 +8,7 @@
     "node": ">=22.5.0"
   },
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node src/utils/seed.js && node src/server.js",
     "dev": "node --watch src/server.js",
     "seed": "node src/utils/seed.js"
   },
