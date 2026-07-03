@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Env files (never commit secrets)
+.env
+
+# Build artifacts
+dist/
+build/
+.vite/
+
+# Database
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
