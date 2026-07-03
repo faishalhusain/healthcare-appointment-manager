@@ -1,5 +1,23 @@
 # Healthcare Appointment & Follow-up Manager
 
+## 🔗 Live Demo
+
+**Frontend:** https://healthcare-appointment-manager-frontend.onrender.com
+
+> **Note:** Hosted on Render's free tier — the backend may take 30–60
+> seconds to spin up on the first request after a period of inactivity.
+> If the page looks stuck on load, give it a moment and refresh.
+
+**Try it with the seeded accounts:**
+- Admin: `admin@clinic.com` / `Admin@123`
+- Doctor: `dr.sharma@clinic.com` / `Doctor@123`
+- Or register a new patient account from the login page.
+
+> Some features (LLM summaries, email, Google Calendar) depend on API keys
+> configured in the deployed environment. If any of these aren't set up on
+> the live instance, the app degrades gracefully as described below — see
+> "Failure handling."
+
 A clinic platform with separate **patient**, **doctor**, and **admin** portals.
 Patients book appointments and share symptoms in advance; an LLM generates an
 urgency-flagged pre-visit summary for the doctor and a plain-language
