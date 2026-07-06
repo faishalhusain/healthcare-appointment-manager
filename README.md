@@ -259,8 +259,5 @@ graceful-fallback behavior above.
 - [x] No `node_modules/`, `.env`, build artifacts, or editor folders committed (`.gitignore`)
 - [x] Minimal, only-required dependencies (native `node:sqlite` used instead
       of an external DB dependency)
-- [x] App runs without errors (`backend` verified end-to-end: registration,
-      login, slot hold + double-booking rejection, AI summaries with
-      fallback, post-visit + reminders, leave-conflict notification, all
-      tested via curl during development)
+- [x] App builds and runs without errors locally and on Render
 - [x] Branch `main`, public repo / Drive link, within size limits
