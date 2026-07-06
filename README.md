@@ -2,7 +2,7 @@
 
 ## 🔗 Live Demo
 
-**Frontend:** https://healthcare-appointment-manager-frontend.onrender.com
+**Link:** https://healthcare-appointment-manager-frontend.onrender.com
 
 > **Note:** Hosted on Render's free tier — the backend may take 30–60
 > seconds to spin up on the first request after a period of inactivity.
